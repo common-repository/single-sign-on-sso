@@ -1,0 +1,287 @@
+#sso-welcome {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#sso-welcome .sso-title {
+    font-size: 26px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+
+#sso-welcome .sso-info {
+    margin: 0 0 30px 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #dff0d8;
+}
+
+#sso-welcome .sso-info p{
+    color: #3c763d;
+    text-align: center;
+    line-height: 28px;    
+    font-size: 17px;
+    margin: 0;   
+    line-height: 30px;
+}
+
+#sso-welcome .sso-logo {
+    padding: 40px 0;
+    text-align: center;
+    clear: both;
+    overflow: hidden;
+}
+
+#sso-welcome .sso-boxes .sso-box {
+    width: 33.33%;
+    float: left;
+}
+
+#sso-welcome .sso-boxes .sso-box .sso-box-wrap {
+    padding: 20px 40px;
+    background-color: #f4f4f4;
+    height: 180px;
+}
+
+#sso-welcome .sso-boxes .sso-box-about-plugin .sso-box-wrap {
+    margin: 0 40px;
+}
+
+#sso-welcome .sso-boxes .sso-box .sso-box-title {
+    font-size: 20px;
+    text-align: center;
+    color: #0073aa;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#sso-welcome .sso-boxes .sso-box .sso-box-body p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+#sso-welcome .sso-start {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 80px;
+}
+
+#sso-welcome .sso-start a.sso-btn {
+    background-color: #00BE28;
+    border: 1px solid #00a523;
+    border-width: 1px 1px 2px 1px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#sso-welcome .sso-start a:hover {
+    background: #00a523;
+    border-color: #008b1d;
+    color: white;
+}
+
+#sso-welcome .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#sso-setup {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#sso-setup .sso-title {
+    font-size: 26px;
+    margin: 10px 0 30px 0;
+    text-align: center;
+}
+
+#sso-setup .sso-info {
+    font-size: 18px;
+    background-color: #0073aa;
+    margin: 5px 0 30px 0;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    line-height: 28px;
+}
+
+#sso-setup .sso-setup-message {
+    background-color: #dff0d8;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+#sso-setup .sso-setup-message p {
+    color: #3c763d;
+    font-size: 16px;
+    text-align: center;
+}
+
+#sso-setup .sso-updated-message {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+    background: #009300;
+    padding: 20px;
+    text-align: center;
+}
+
+#sso-setup p.sso-access-account {
+    text-align: center;
+    line-height: 45px;
+}
+
+#sso-setup p.sso-access-account a.sso-btn {
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#sso-setup p.sso-access-account a.sso-btn-login {
+    background-color: #00BE28;
+    color: #fff;
+}
+
+#sso-setup p.sso-access-account a.sso-btn-help {
+    background-color: #1890C9;
+    color: #fff;
+}
+
+#sso-setup p.sso-access-account a.sso-btn-login:hover {
+    background: #00a523;
+}
+
+#sso-setup p.sso-access-account a.sso-btn-help:hover {
+    background-color: #257FB8;
+}
+
+#sso-setup .form-table {
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+#sso-setup .form-table tr.sso-row-head th {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #0073aa;
+    color: #fff;
+    line-height: 15px;
+    padding: 15px 0 15px 10px;
+    overflow: hidden
+}
+
+#sso-setup .form-table tr.sso-row-head th a{
+    color: #fff;
+}
+
+#sso-setup .form-table tr.sso-row-head th a:hover{
+    text-decoration:none;
+    color: #ffff43;
+}
+
+#sso-setup .form-table td.sso-col-label {
+    width: 20%;
+    text-align: center;
+    font-size: 15px;
+    color: #606060;
+}
+
+#sso-setup .form-table td.sso-col-label label{
+    cursor: default
+}
+
+#sso-setup .form-table td.sso-col-label label[for]{
+    cursor: pointer;
+}
+
+#sso-setup .form-table td.sso-col-value {
+    width: 80%;
+}
+
+#sso-setup .form-table tr.sso-row-even td {
+    background-color: #ececec;
+    overflow: hidden
+}
+
+#sso-setup .form-table tr.sso-row-foot td {
+    background-color: #dee2e4;
+    overflow: hidden
+}
+
+#sso-setup .form-table .working_message {
+    color: #0085ba;
+    font-weight: bold;
+    background: url("../img/status_loading.gif") no-repeat scroll 0 50% transparent;
+    padding-left: 25px;
+}
+
+#sso-setup .form-table .success_message {
+    color: #00a403;
+    font-weight: bold;
+    background: url("../img/status_ok.png") no-repeat scroll 0 50% transparent;
+    padding-left: 25px;
+}
+
+#sso-setup .form-table .error_message {
+    color: #f00000;
+    font-weight: bold;
+    background: url("../img/status_error.png") no-repeat scroll 0 50% transparent;
+    padding-left: 25px;
+}
+
+#sso-setup .form-table select, 
+#sso-setup .form-table input[type="text"] {
+    padding: 5px;
+    margin: 0;
+    width: 400px;
+}
+
+#sso-setup .form-table .description {
+    margin-top: 10px;
+    display: inline-block;
+    width: 600px;
+}
+
+#sso-setup .sso-submit {
+    text-align: center;
+}
+
+#sso-setup .sso-submit .sso-save {
+    background-color: #00BE28;
+    border: 1px solid #00a523;
+    border-width: 1px 1px 2px 1px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#sso-setup .sso-debug-log {
+    width: 100%;
+    margin: 0;
+    background-color: #fcfcfc;
+    overflow: auto;
+    white-space: pre;
+}
+
+#sso-setup .sso-submit .sso-save:hover {
+    background: #00a523;
+    border-color: #008b1d;
+    color: white;
+}
